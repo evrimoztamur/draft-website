@@ -138,7 +138,7 @@ h2 {
     line-height: 85%;
 }
 
-.big-button {
+a.big-button {
     background-color: #219962;
     color: #FFFFFF;
     display: inline-block;
@@ -148,7 +148,7 @@ h2 {
     text-align: center;
 }
 
-.big-button:hover {
+a.big-button:hover {
     color: #FECC4F;
 }
 
