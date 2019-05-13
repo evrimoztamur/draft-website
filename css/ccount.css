@@ -135,6 +135,10 @@ h1 {
     line-height: 85%;
 }
 
+h2 {
+    line-height: 85%;
+}
+
 .big-button {
     background-color: #219962;
     color: #FFFFFF !important;
@@ -160,4 +164,18 @@ h1 {
 .blink {
     animation: blink 1s step-start 0s infinite;
     -webkit-animation: blink 1s step-start 0s infinite;
+}
+
+h1.emphasised, h2.emphasised {
+    display: inline-block;
+    border-bottom: 6px solid #6290E7;
+    margin-bottom: 8px;
+}
+
+h1.emphasised {
+    padding-bottom: 6px;
+}
+
+h2.emphasised {
+    padding-bottom: 3px;
 }
