@@ -18,12 +18,15 @@ body {
 }
 
 header, footer {
-    max-width: 1280px;
     margin: 0 auto;
     color: #FFFFFF;
     width: 100%;
     text-align: center;
     padding: 32px;
+}
+
+img {
+    max-width: 100%;
 }
 
 a {
@@ -94,21 +97,11 @@ main .content-block.inverted {
     color: #36499B;
 }
 
-main .content-block .squeeze {
-    margin: 0 auto;
-    max-width: 960px;
-}
-
-main .content-block .tight-squeeze {
-    margin: 0 auto;
-    max-width: 780px;
-}
-
-main .content-block.caption .row {
+main .caption .row {
     align-items: center;
 }
 
-main .content-block .row {
+main .content-block.row {
     margin: 0;
 }
 
@@ -123,15 +116,6 @@ footer .content-block {
     border-radius: 8px;
     font-size: 16px;
     text-align: left;
-}
-
-footer .content-block .squeeze {
-    margin: 0 auto;
-    max-width: 480px;
-}
-
-footer .content-block .row a {
-    colodr: #ffffff;
 }
 
 .text-left {
@@ -157,8 +141,8 @@ h1 {
     display: inline-block;
     padding: 16px 96px;
     margin: 4px;
-    margin-right: 8px;
     border-radius: 4px;
+    text-align: center;
 }
 
 @keyframes blink {
