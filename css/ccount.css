@@ -70,12 +70,12 @@ nav ul a {
 }
 
 nav ul a:hover {
-    background-color: #2E55A5;
+    background-color: #6290E7;
 }
 
 nav ul a.inverted {
-    color: #2E55A5;
-    border-color: #2E55A5;
+    color: #6290E7;
+    border-color: #6290E7;
 }
 
 nav ul a.inverted:hover {
@@ -111,7 +111,6 @@ footer {
 
 footer .content-block {
     padding: 32px;
-    background-color: #2E55A5;
     color: #ffffff;
     border-radius: 8px;
     font-size: 16px;
@@ -141,12 +140,16 @@ h2 {
 
 .big-button {
     background-color: #219962;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     display: inline-block;
     padding: 16px 96px;
     margin: 4px;
     border-radius: 4px;
     text-align: center;
+}
+
+.big-button:hover {
+    color: #FECC4F;
 }
 
 @keyframes blink {
@@ -166,16 +169,15 @@ h2 {
     -webkit-animation: blink 1s step-start 0s infinite;
 }
 
-h1.emphasised, h2.emphasised {
+h1.emphasised, h2.emphasised, h1 .emphasised, h2 .emphasised {
     display: inline-block;
     border-bottom: 6px solid #6290E7;
-    margin-bottom: 8px;
 }
 
-h1.emphasised {
+h1.emphasised, h1 .emphasised {
     padding-bottom: 6px;
 }
 
-h2.emphasised {
+h2.emphasised, h2 .emphasised {
     padding-bottom: 3px;
 }
