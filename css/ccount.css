@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #36499B;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    padding: 32px;
+}
+
+a {
+    color: #FECC4F;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FECC4F;
+}
+
+header a {
+    color: #FFFFFF;
+}
+
+header a:visited {
+    color: #FFFFFF;
+}
+
+.row {
+    justify-content: center;
+}
+
+header .row .col {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul a {
+    display: inline-block;
+    padding: 6px 30px;
+    margin: 4px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+nav ul a:hover {
+    background-color: #2E55A5;
+}
+
+nav ul a.inverted {
+    color: #2E55A5;
+    border-color: #2E55A5;
+}
+
+nav ul a.inverted:hover {
+    color: #36499B;
+    background-color: #FFFFFF;
+    border-color: #ffffff;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+main .content-block {
+    padding: 40px 0;
+}
+
+main .content-block.inverted {
+    background-color: #FFFFFF;
+    color: #36499B;
+}
+
+main .content-block .squeeze {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+main .content-block .tight-squeeze {
+    margin: 0 auto;
+    max-width: 780px;
+}
+
+main .content-block.caption .row {
+    align-items: center;
+}
+
+main .content-block .row {
+    margin: 0;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+footer .content-block {
+    padding: 32px;
+    background-color: #2E55A5;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: left;
+}
+
+footer .content-block .squeeze {
+    margin: 0 auto;
+    max-width: 480px;
+}
+
+footer .content-block .row a {
+    colodr: #ffffff;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+h1 {
+    font-weight: bold;
+    line-height: 85%;
+}
+
+.big-button {
+    background-color: #219962;
+    color: #FFFFFF !important;
+    display: inline-block;
+    padding: 16px 96px;
+    margin: 4px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+.blink {
+    animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
+}
