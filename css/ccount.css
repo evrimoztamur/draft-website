@@ -15,6 +15,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    text-rendering: optimizeLegibility;
 }
 
 header, footer {
@@ -84,6 +85,11 @@ nav ul a.inverted:hover {
     border-color: #ffffff;
 }
 
+hr {
+    border: 0;
+    border-top: 1px solid #6290E7;
+}
+
 main {
     flex: 1 0 auto;
 }
@@ -92,7 +98,7 @@ main .content-block {
     padding: 40px 0;
 }
 
-main .content-block.inverted {
+main .inverted {
     background-color: #FFFFFF;
     color: #36499B;
 }
@@ -103,6 +109,23 @@ main .caption .row {
 
 main .content-block.row {
     margin: 0;
+}
+
+main .row.header {
+    background-color: #6290E7;
+    color: #FFFFFF;
+}
+
+main .container.service .row .col {
+    text-align: center;
+}
+
+main .container.service .row .col p {
+    font-size: 1rem;
+}
+
+main .container.service .row {
+    border-bottom: 1px solid #6290E7;
 }
 
 footer {
@@ -180,4 +203,8 @@ h1.emphasised, h1 .emphasised {
 
 h2.emphasised, h2 .emphasised {
     padding-bottom: 3px;
+}
+
+.round {
+    border-radius: 10px;
 }
